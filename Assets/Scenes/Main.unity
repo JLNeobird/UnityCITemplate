@@ -133,9 +133,10 @@ GameObject:
   m_Component:
   - component: {fileID: 232688588}
   - component: {fileID: 232688590}
+  - component: {fileID: 232688591}
   - component: {fileID: 232688589}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: RotatingText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,6 +259,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232688587}
   m_CullTransparentMesh: 1
+--- !u!114 &232688591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232688587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df248164571110a4bac6261cd1a8baa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 100
 --- !u!1 &313443225
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,7 +447,7 @@ GameObject:
   - component: {fileID: 865655292}
   - component: {fileID: 865655291}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
